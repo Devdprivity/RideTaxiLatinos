@@ -31,7 +31,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/img/logoRide.svg"
+              src="/img/LogoRide.svg"
               alt="RideTaxi"
               width={160}
               height={40}
