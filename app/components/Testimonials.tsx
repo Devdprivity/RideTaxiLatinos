@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
 export default function Testimonials() {
-  const cardsRef = useRef([]);
+  const cardsRef = useRef<(HTMLElement | null)[]>([]);
 
   useEffect(() => {
     gsap.fromTo(
@@ -69,7 +69,7 @@ export default function Testimonials() {
           {testimonials.map((t, i) => (
             <article
               key={i}
-              ref={(el) => (cardsRef.current[i] = el)}
+              ref={(el) => { cardsRef.current[i] = el; }}
               onMouseEnter={(e) =>
                 gsap.to(e.currentTarget, {
                   y: -8,
