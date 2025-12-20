@@ -15,7 +15,7 @@ export default function MobileTarifas() {
         { label: 'Por milla', value: '$2.00' },
         { label: 'Mínimo', value: '$7.00' },
       ],
-      note: 'Más de 4 millas: +$2.00 por milla adicional',
+      note: 'Mínimo 2 millas aunque recorras menos',
       color: 'turquoise',
     },
     {
@@ -27,7 +27,7 @@ export default function MobileTarifas() {
         { label: 'Lista para recoger', value: '$11.00' },
         { label: 'Pedir y esperar', value: '$15.00' },
       ],
-      note: 'Tarifa fija sin importar la distancia',
+      note: 'Hasta 4 millas incluidas. +$2.00 por milla adicional',
       color: 'orange',
     },
   ];
@@ -125,7 +125,7 @@ export default function MobileTarifas() {
             </div>
             <div className="flex justify-between text-white/70">
               <span>Viaje de 6 millas:</span>
-              <span className="text-white">$3.00 + (6 × $2.00) + (2 × $2.00) = <strong className="text-turquoise">$19.00</strong></span>
+              <span className="text-white">$3.00 + (6 × $2.00) = <strong className="text-turquoise">$15.00</strong></span>
             </div>
           </div>
         </div>
