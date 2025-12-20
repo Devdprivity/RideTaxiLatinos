@@ -20,7 +20,7 @@ export default function Tarifas() {
         { label: 'Por milla', value: '$2.00' },
         { label: 'Mínimo', value: '$7.00' },
       ],
-      note: 'Más de 4 millas: +$2.00 por milla adicional',
+      note: 'Calculamos segun la distancia en millas',
     },
     {
       id: 'food',
@@ -31,7 +31,7 @@ export default function Tarifas() {
         { label: 'Lista para recoger', value: '$11.00' },
         { label: 'Pedir y esperar', value: '$15.00' },
       ],
-      note: 'Tarifa fija sin importar la distancia',
+      note: 'Más de 4 millas: +$2.00 por milla adicional',
     },
   ];
 
@@ -205,27 +205,7 @@ export default function Tarifas() {
               ))}
             </div>
 
-            {/* Ejemplo de cálculo */}
-            <div className="max-w-4xl mx-auto mt-12">
-              <div className="bg-gradient-to-r from-turquoise/20 to-turquoise/5 rounded-2xl p-6 border border-turquoise/30">
-                <h4 className="text-navy font-bold text-lg mb-4 flex items-center gap-2">
-                  <svg className="w-6 h-6 text-turquoise" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                  </svg>
-                  Ejemplo de cálculo
-                </h4>
-                <div className="space-y-3 text-sm">
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Viaje de 3 millas:</span>
-                    <span className="text-navy font-semibold">$3.00 + (3 × $2.00) = <strong className="text-turquoise">$9.00</strong></span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Viaje de 6 millas:</span>
-                    <span className="text-navy font-semibold">$3.00 + (6 × $2.00) + (2 × $2.00) = <strong className="text-turquoise">$19.00</strong></span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
           </div>
         </section>
 
