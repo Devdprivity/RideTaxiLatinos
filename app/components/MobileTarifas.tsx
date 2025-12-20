@@ -30,17 +30,6 @@ export default function MobileTarifas() {
       note: 'Tarifa fija sin importar la distancia',
       color: 'orange',
     },
-    {
-      id: 'liquor',
-      icon: '🍷',
-      title: 'Delivery de Licor',
-      description: 'Bebidas hasta tu puerta',
-      pricing: [
-        { label: 'Tarifa fija', value: '$15.00' },
-      ],
-      note: 'Disponible para mayores de 21 años',
-      color: 'purple',
-    },
   ];
 
   return (

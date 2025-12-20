@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 
-type ServiceType = 'passenger' | 'food' | 'liquor';
+type ServiceType = 'passenger' | 'food';
 type FoodOption = 'ready' | 'wait';
 
 interface AddressSuggestion {
@@ -179,8 +179,7 @@ export default function PriceCalculator() {
 
     const serviceNames = {
       passenger: 'Transporte de pasajero',
-      food: foodOption === 'ready' ? 'Delivery de comida (lista)' : 'Delivery de comida (pedir y esperar)',
-      liquor: 'Delivery de licor'
+      food: foodOption === 'ready' ? 'Delivery de comida (lista)' : 'Delivery de comida (pedir y esperar)'
     };
 
     const message = `Hola, soy *${userName}*.\n\n` +
@@ -271,9 +270,6 @@ export default function PriceCalculator() {
           // $3.00 + ($2.00 * Millas) + ($2.00 * (Millas - 4))
           calculatedPrice = 3.00 + (2.00 * miles) + (2.00 * (miles - 4));
         }
-      } else if (serviceType === 'liquor') {
-        // Delivery de licor: $15.00 fijo
-        calculatedPrice = 15.00;
       } else if (serviceType === 'food') {
         // Delivery de comida
         if (foodOption === 'ready') {
@@ -302,7 +298,7 @@ export default function PriceCalculator() {
       {/* Selector de tipo de servicio */}
       <div className="space-y-4 mb-6">
         <label className="block text-sm font-medium text-[#25d1ab]">Tipo de servicio</label>
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-2 gap-2">
           <button
             onClick={() => setServiceType('passenger')}
             className={`py-3 px-4 rounded-lg text-sm font-semibold transition-all ${
@@ -322,16 +318,6 @@ export default function PriceCalculator() {
             }`}
           >
             Comida
-          </button>
-          <button
-            onClick={() => setServiceType('liquor')}
-            className={`py-3 px-4 rounded-lg text-sm font-semibold transition-all ${
-              serviceType === 'liquor'
-                ? 'bg-turquoise text-white shadow-lg'
-                : 'bg-navy bg-opacity-40 text-white hover:bg-opacity-60 border border-turquoise border-opacity-20'
-            }`}
-          >
-            Licor
           </button>
         </div>
       </div>

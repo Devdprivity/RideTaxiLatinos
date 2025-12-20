@@ -9,34 +9,30 @@ export const metadata = {
 };
 
 export default function Tarifas() {
-  const pricing = [
+  const services = [
     {
-      name: 'Economy',
+      id: 'passenger',
       icon: '🚗',
-      baseRate: '$2.50',
-      perKm: '$0.80',
-      perMin: '$0.15',
-      features: ['Hasta 4 pasajeros', 'Equipaje estándar', 'Aire acondicionado'],
-      popular: false,
+      title: 'Transporte de Pasajeros',
+      description: 'Viajes seguros a cualquier destino',
+      pricing: [
+        { label: 'Tarifa base', value: '$3.00' },
+        { label: 'Por milla', value: '$2.00' },
+        { label: 'Mínimo', value: '$7.00' },
+      ],
+      note: 'Más de 4 millas: +$2.00 por milla adicional',
     },
     {
-      name: 'Comfort',
-      icon: '🚙',
-      baseRate: '$4.00',
-      perKm: '$1.20',
-      perMin: '$0.20',
-      features: ['Hasta 4 pasajeros', 'Vehículos premium', 'Más espacio', 'WiFi gratis'],
-      popular: true,
+      id: 'food',
+      icon: '🍔',
+      title: 'Delivery de Comida',
+      description: 'Tu comida favorita a domicilio',
+      pricing: [
+        { label: 'Lista para recoger', value: '$11.00' },
+        { label: 'Pedir y esperar', value: '$15.00' },
+      ],
+      note: 'Tarifa fija sin importar la distancia',
     },
-    {
-      name: 'XL',
-      icon: '🚐',
-      baseRate: '$5.50',
-      perKm: '$1.50',
-      perMin: '$0.25',
-      features: ['Hasta 6 pasajeros', 'Equipaje extra', 'Perfecto para grupos', 'Aire acondicionado'],
-      popular: false,
-    }
   ];
 
   const additionalInfo = [
@@ -146,105 +142,89 @@ export default function Tarifas() {
           </div>
         </section>
 
-        {/* Pricing Cards - Modern Glass Design */}
+        {/* Services Cards */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-                Elige tu tipo de viaje
+                Nuestros Servicios
               </h2>
               <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                Tenemos opciones para cada necesidad y presupuesto
+                Precios transparentes y tarifas fijas
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto">
-              {pricing.map((plan, index) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-4xl mx-auto">
+              {services.map((service, index) => (
                 <div
                   key={index}
-                  className={`relative group rounded-3xl p-8 transition-all duration-500 hover:scale-[1.02] ${
-                    plan.popular
-                      ? 'bg-navy text-white shadow-2xl shadow-navy/30 ring-2 ring-turquoise'
-                      : 'bg-white text-navy shadow-xl hover:shadow-2xl border border-gray-100'
-                  }`}
+                  className="relative group rounded-3xl p-8 transition-all duration-500 hover:scale-[1.02] bg-white text-navy shadow-xl hover:shadow-2xl border border-gray-100"
                 >
-                  {/* Popular Badge */}
-                  {plan.popular && (
-                    <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                      <div className="bg-turquoise text-white text-sm font-bold px-6 py-2 rounded-full shadow-lg">
-                        Más popular
-                      </div>
-                    </div>
-                  )}
-
                   <div className="text-center mb-8">
-                    <div className={`text-6xl mb-4 transition-transform duration-300 group-hover:scale-110 inline-block`}>
-                      {plan.icon}
+                    <div className="text-6xl mb-4 transition-transform duration-300 group-hover:scale-110 inline-block">
+                      {service.icon}
                     </div>
-                    <h3 className={`text-2xl font-bold mb-2 ${plan.popular ? 'text-white' : 'text-navy'}`}>
-                      {plan.name}
+                    <h3 className="text-2xl font-bold mb-2 text-navy">
+                      {service.title}
                     </h3>
+                    <p className="text-gray-600 text-sm">{service.description}</p>
                   </div>
 
                   {/* Pricing Details */}
-                  <div className="space-y-4 mb-8">
-                    <div className={`flex justify-between items-center pb-4 border-b ${
-                      plan.popular ? 'border-white/20' : 'border-gray-100'
-                    }`}>
-                      <span className={plan.popular ? 'text-white/70' : 'text-gray-500'}>Tarifa base</span>
-                      <span className={`text-2xl font-bold ${plan.popular ? 'text-turquoise' : 'text-turquoise'}`}>
-                        {plan.baseRate}
-                      </span>
-                    </div>
-                    <div className={`flex justify-between items-center pb-4 border-b ${
-                      plan.popular ? 'border-white/20' : 'border-gray-100'
-                    }`}>
-                      <span className={plan.popular ? 'text-white/70' : 'text-gray-500'}>Por kilómetro</span>
-                      <span className={`text-xl font-semibold ${plan.popular ? 'text-white' : 'text-navy'}`}>
-                        {plan.perKm}
-                      </span>
-                    </div>
-                    <div className={`flex justify-between items-center pb-4 border-b ${
-                      plan.popular ? 'border-white/20' : 'border-gray-100'
-                    }`}>
-                      <span className={plan.popular ? 'text-white/70' : 'text-gray-500'}>Por minuto</span>
-                      <span className={`text-xl font-semibold ${plan.popular ? 'text-white' : 'text-navy'}`}>
-                        {plan.perMin}
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Features */}
-                  <div className="space-y-3 mb-8">
-                    {plan.features.map((feature, i) => (
-                      <div key={i} className="flex items-center gap-3">
-                        <div className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 ${
-                          plan.popular ? 'bg-turquoise/20' : 'bg-turquoise/10'
-                        }`}>
-                          <svg className="w-3 h-3 text-turquoise" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                          </svg>
-                        </div>
-                        <span className={plan.popular ? 'text-white/90' : 'text-gray-600'}>
-                          {feature}
+                  <div className="space-y-4 mb-6">
+                    {service.pricing.map((item, i) => (
+                      <div key={i} className="flex justify-between items-center pb-4 border-b border-gray-100">
+                        <span className="text-gray-500">{item.label}</span>
+                        <span className="text-2xl font-bold text-turquoise">
+                          {item.value}
                         </span>
                       </div>
                     ))}
                   </div>
 
+                  {/* Note */}
+                  <div className="mb-6">
+                    <div className="bg-turquoise/10 rounded-lg px-4 py-3 border border-turquoise/20">
+                      <p className="text-turquoise text-sm flex items-center gap-2">
+                        <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                        </svg>
+                        {service.note}
+                      </p>
+                    </div>
+                  </div>
+
                   {/* CTA Button */}
                   <Link
                     href="/pasajeros/solicitar-viaje"
-                    className={`block w-full py-4 rounded-2xl font-semibold text-center transition-all duration-300 ${
-                      plan.popular
-                        ? 'bg-turquoise text-white hover:bg-turquoise/90 hover:shadow-lg hover:shadow-turquoise/30'
-                        : 'bg-navy text-white hover:bg-navy/90 hover:shadow-lg hover:shadow-navy/30'
-                    }`}
+                    className="block w-full py-4 bg-navy text-white rounded-2xl font-semibold text-center transition-all duration-300 hover:bg-navy/90 hover:shadow-lg hover:shadow-navy/30"
                   >
-                    Solicitar {plan.name}
+                    Calcular tarifa
                   </Link>
                 </div>
               ))}
+            </div>
+
+            {/* Ejemplo de cálculo */}
+            <div className="max-w-4xl mx-auto mt-12">
+              <div className="bg-gradient-to-r from-turquoise/20 to-turquoise/5 rounded-2xl p-6 border border-turquoise/30">
+                <h4 className="text-navy font-bold text-lg mb-4 flex items-center gap-2">
+                  <svg className="w-6 h-6 text-turquoise" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                  Ejemplo de cálculo
+                </h4>
+                <div className="space-y-3 text-sm">
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">Viaje de 3 millas:</span>
+                    <span className="text-navy font-semibold">$3.00 + (3 × $2.00) = <strong className="text-turquoise">$9.00</strong></span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">Viaje de 6 millas:</span>
+                    <span className="text-navy font-semibold">$3.00 + (6 × $2.00) + (2 × $2.00) = <strong className="text-turquoise">$19.00</strong></span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
