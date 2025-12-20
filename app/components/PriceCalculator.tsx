@@ -258,26 +258,28 @@ export default function PriceCalculator() {
 
       if (serviceType === 'passenger') {
         // Cálculo para pasajeros
-        if (miles <= 4) {
-          // Tarifa normal: $3.00 fijo + $2.00 por milla
-          calculatedPrice = 3.00 + (2.00 * miles);
-          // Mínimo $7.00
-          if (calculatedPrice < 7.00) {
-            calculatedPrice = 7.00;
-          }
-        } else {
-          // Distancias extendidas (más de 4 millas)
-          // $3.00 + ($2.00 * Millas) + ($2.00 * (Millas - 4))
-          calculatedPrice = 3.00 + (2.00 * miles) + (2.00 * (miles - 4));
-        }
+        // Base: $3.00 + $2.00 por milla
+        // Mínimo 2 millas (aunque recorra menos) = $7.00 mínimo
+        const effectiveMiles = Math.max(miles, 2); // Mínimo 2 millas
+        calculatedPrice = 3.00 + (2.00 * effectiveMiles);
       } else if (serviceType === 'food') {
         // Delivery de comida
         if (foodOption === 'ready') {
-          // Comida lista para recoger: $11.00
-          calculatedPrice = 11.00;
+          // Listo para recoger: $11.00 base (hasta 4 millas)
+          // Millas adicionales: $2.00 por cada milla extra
+          if (miles <= 4) {
+            calculatedPrice = 11.00;
+          } else {
+            calculatedPrice = 11.00 + (2.00 * (miles - 4));
+          }
         } else {
-          // Hay que pedir y esperar: $15.00
-          calculatedPrice = 15.00;
+          // Pedir y esperar: $15.00 base (hasta 4 millas)
+          // Millas adicionales: $2.00 por cada milla extra
+          if (miles <= 4) {
+            calculatedPrice = 15.00;
+          } else {
+            calculatedPrice = 15.00 + (2.00 * (miles - 4));
+          }
         }
       }
 
@@ -507,14 +509,24 @@ export default function PriceCalculator() {
             <p className="text-white text-sm mb-2">Precio estimado</p>
             <p className="text-4xl font-bold text-white">${price.toFixed(2)}</p>
             <p className="text-white text-xs mt-1">USD</p>
-            {distance !== null && serviceType === 'passenger' && (
+            {distance !== null && (
               <p className="text-gray-200 text-sm mt-3">
                 Distancia: {distance.toFixed(2)} millas
-              </p>
-            )}
-            {serviceType !== 'passenger' && (
-              <p className="text-gray-200 text-sm mt-3">
-                Tarifa fija de delivery
+                {serviceType === 'passenger' && distance < 2 && (
+                  <span className="block text-xs text-gray-300 mt-1">
+                    (Mínimo 2 millas aplicado)
+                  </span>
+                )}
+                {serviceType === 'food' && distance <= 4 && (
+                  <span className="block text-xs text-gray-300 mt-1">
+                    (Tarifa base hasta 4 millas)
+                  </span>
+                )}
+                {serviceType === 'food' && distance > 4 && (
+                  <span className="block text-xs text-gray-300 mt-1">
+                    (+${((distance - 4) * 2).toFixed(2)} por {(distance - 4).toFixed(2)} millas extra)
+                  </span>
+                )}
               </p>
             )}
           </div>
