@@ -204,8 +204,6 @@ export default function Tarifas() {
                 </div>
               ))}
             </div>
-
-          
           </div>
         </section>
 

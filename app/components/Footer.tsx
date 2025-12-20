@@ -70,7 +70,7 @@ export default function Footer() {
 
             <div className="mt-6 flex items-center gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/ridelatinollc"
                 aria-label="Facebook"
                 className="w-10 h-10 rounded-xl bg-white/10 hover:bg-white/20 transition-colors grid place-items-center focus:outline-none focus:ring-2 focus:ring-turquoise/80"
               >
@@ -79,7 +79,7 @@ export default function Footer() {
                 </svg>
               </a>
 
-              <a
+              {/* <a
                 href="#"
                 aria-label="X (Twitter)"
                 className="w-10 h-10 rounded-xl bg-white/10 hover:bg-white/20 transition-colors grid place-items-center focus:outline-none focus:ring-2 focus:ring-turquoise/80"
@@ -87,10 +87,10 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
                 </svg>
-              </a>
+              </a> */}
 
               <a
-                href="#"
+                href="https://www.instagram.com/ridelatinollc"
                 aria-label="Instagram"
                 className="w-10 h-10 rounded-xl bg-white/10 hover:bg-white/20 transition-colors grid place-items-center focus:outline-none focus:ring-2 focus:ring-turquoise/80"
               >
@@ -99,7 +99,7 @@ export default function Footer() {
                 </svg>
               </a>
 
-              <a
+              {/* <a
                 href="#"
                 aria-label="TikTok"
                 className="w-10 h-10 rounded-xl bg-white/10 hover:bg-white/20 transition-colors grid place-items-center focus:outline-none focus:ring-2 focus:ring-turquoise/80"
@@ -107,7 +107,7 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z" />
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
 
