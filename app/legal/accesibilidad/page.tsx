@@ -67,7 +67,7 @@ export default function Accesibilidad() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-              En RideTaxi creemos que el transporte debe ser accesible para todos. Trabajamos constantemente para eliminar barreras y ofrecer una experiencia inclusiva.
+              En Ride Latinos Service LLC creemos que el transporte debe ser accesible para todos. Trabajamos constantemente para eliminar barreras y ofrecer una experiencia inclusiva.
             </p>
 
             {/* Accessibility stats */}
@@ -155,7 +155,7 @@ export default function Accesibilidad() {
               
               <div className="space-y-4 text-white/80 text-lg leading-relaxed">
                 <p>
-                  RideTaxi se compromete a garantizar la accesibilidad digital para personas con discapacidades. Mejoramos continuamente la experiencia del usuario para todos y aplicamos los estándares de accesibilidad relevantes.
+                  Ride Latinos Service LLC se compromete a garantizar la accesibilidad digital para personas con discapacidades. Mejoramos continuamente la experiencia del usuario para todos y aplicamos los estándares de accesibilidad relevantes.
                 </p>
                 <p>
                   Trabajamos para cumplir con las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1 nivel AA y la Sección 508 de la Ley de Rehabilitación.
@@ -350,7 +350,7 @@ export default function Accesibilidad() {
               <div className="bg-[#25d1ab]/10 border-l-4 border-[#25d1ab] rounded-r-xl p-6 mt-8">
                 <p className="text-[#25d1ab] font-semibold mb-2">💡 ¿Usas otra tecnología?</p>
                 <p className="text-white/80">
-                  Si utilizas una tecnología asistiva que no funciona correctamente con RideTaxi, por favor contáctanos para que podamos mejorar la compatibilidad.
+                  Si utilizas una tecnología asistiva que no funciona correctamente con Ride Latinos Service LLC, por favor contáctanos para que podamos mejorar la compatibilidad.
                 </p>
               </div>
             </div>

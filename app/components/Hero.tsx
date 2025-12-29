@@ -97,7 +97,7 @@ export default function Hero() {
                 <div className="relative mx-auto lg:mx-0 h-[360px] sm:h-[440px] lg:h-[560px]">
                   <Image
                     src="/img/avatarSectio/Botonweb.png"
-                    alt="RideTaxi"
+                    alt="Ride Latinos Service LLC"
                     fill
                     priority
                     sizes="(min-width: 1024px) 460px, (min-width: 640px) 420px, 90vw"

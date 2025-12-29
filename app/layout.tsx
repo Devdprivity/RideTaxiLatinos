@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RideTaxi - Servicio de Taxi para Latinos",
+  title: "Ride Latinos Service LLC - Servicio de Taxi para Latinos",
   description: "Viajes seguros, conductores verificados y precios transparentes. El mejor servicio de taxi para la comunidad latina. Descarga la app ahora.",
   icons: {
     icon: "/img/LogoRide.svg",

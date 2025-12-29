@@ -2,7 +2,7 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 
 export const metadata = {
-  title: 'Prensa - RideTaxi',
+  title: 'Prensa - Ride Latinos Service LLC',
   description: 'Información de prensa y contacto para medios.',
 };
 
@@ -34,10 +34,10 @@ export default function Prensa() {
 
               <div className="space-y-6 mb-16">
                 {[
-                  { title: 'RideTaxi alcanza 5 millones de viajes completados', date: '15 Dic 2024' },
-                  { title: 'RideTaxi anuncia expansión a 10 nuevas ciudades', date: '10 Dic 2024' },
+                  { title: 'Ride Latinos Service LLC alcanza 5 millones de viajes completados', date: '15 Dic 2024' },
+                  { title: 'Ride Latinos Service LLC anuncia expansión a 10 nuevas ciudades', date: '10 Dic 2024' },
                   { title: 'Nueva alianza estratégica con empresas de tecnología', date: '5 Dic 2024' },
-                  { title: 'RideTaxi implementa nuevas medidas de seguridad', date: '1 Dic 2024' }
+                  { title: 'Ride Latinos Service LLC implementa nuevas medidas de seguridad', date: '1 Dic 2024' }
                 ].map((press, index) => (
                   <div key={index} className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between">

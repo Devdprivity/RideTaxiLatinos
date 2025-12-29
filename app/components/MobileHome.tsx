@@ -39,7 +39,7 @@ export default function MobileHome() {
       <div className="pt-3 pb-2 flex justify-center">
         <Image
           src="/img/LogoRide.svg"
-          alt="RideTaxi Logo"
+          alt="Ride Latinos Service LLC Logo"
           width={120}
           height={36}
           priority
@@ -65,7 +65,7 @@ export default function MobileHome() {
           <div className="relative w-[160px] h-[160px]">
             <Image
               src="/img/avatarSectio/Botonweb.png"
-              alt="RideTaxi"
+              alt="Ride Latinos Service LLC"
               fill
               priority
               sizes="160px"
@@ -74,10 +74,10 @@ export default function MobileHome() {
           </div>
         </div>
 
-        {/* ¿Por qué elegir RideTaxi? */}
+        {/* ¿Por qué elegir Ride Latinos Service LLC? */}
         <div className="mb-3">
           <h2 className="text-center text-white font-bold text-base mb-1">
-            ¿Por qué elegir RideTaxi?
+            ¿Por qué elegir Ride Latinos Service LLC?
           </h2>
           <p className="text-center text-white/60 text-[10px] mb-2 leading-tight">
             Experiencia moderna, segura y transparente

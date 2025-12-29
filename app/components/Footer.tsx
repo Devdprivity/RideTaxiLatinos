@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="relative flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
               <div className="max-w-2xl">
                 <h2 className="text-2xl md:text-3xl font-bold leading-tight">
-                  Contacta a RideTaxi y muévete con confianza
+                  Contacta a Ride Latinos Service LLC y muévete con confianza
                 </h2>
                 <p className="mt-2 text-white/90 leading-relaxed">
                   Cotiza en nuestra web y confirma por WhatsApp. Conductores verificados, precios claros y soporte en español.
@@ -57,7 +57,7 @@ export default function Footer() {
             <Link href="/" className="inline-flex items-center gap-3">
               <Image
                 src="/img/LogoRide.svg"
-                alt="RideTaxi"
+                alt="Ride Latinos Service LLC"
                 width={160}
                 height={40}
                 className="h-15 w-auto"
@@ -181,7 +181,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/empresa/business" className="text-white/80 hover:text-turquoise transition-colors">
-                  RideTaxi Business
+                  Ride Latinos Service LLC Business
                 </Link>
               </li>
               {/* <li>
@@ -207,7 +207,7 @@ export default function Footer() {
         <div className="mt-12 border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/70 text-sm">
-              &copy; 2024 RideTaxi. Todos los derechos reservados.
+              &copy; 2024 Ride Latinos Service LLC. Todos los derechos reservados.
             </p>
             <div className="flex flex-wrap gap-6 text-sm">
               <Link href="/legal/terminos-servicio" className="text-white/70 hover:text-turquoise transition-colors">

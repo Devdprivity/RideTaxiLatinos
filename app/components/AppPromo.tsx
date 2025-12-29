@@ -1,7 +1,7 @@
 export default function AppPromo() {
   // TODO: Reemplaza el número por el WhatsApp real del negocio (con código de país).
   const WHATSAPP_URL =
-    'https://wa.me/XXXXXXXXXXX?text=Hola%20RideTaxi%2C%20quiero%20cotizar%20un%20viaje.';
+    'https://wa.me/XXXXXXXXXXX?text=Hola%20Ride%20Latinos%20Service%20LLC%2C%20quiero%20cotizar%20un%20viaje.';
 
   return (
     <section className="relative overflow-hidden py-20 bg-[#010028] text-white">

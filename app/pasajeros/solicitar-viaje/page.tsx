@@ -4,8 +4,8 @@ import PriceCalculator from '@/app/components/PriceCalculator';
 import MobileRideRequest from '@/app/components/MobileRideRequest';
 
 export const metadata = {
-  title: 'Solicitar Viaje - RideTaxi',
-  description: 'Solicita tu viaje con RideTaxi. Rápido, seguro y confiable.',
+  title: 'Solicitar Viaje - Ride Latinos Service LLC',
+  description: 'Solicita tu viaje con Ride Latinos Service LLC. Rápido, seguro y confiable.',
 };
 
 export default function SolicitarViaje() {
@@ -46,7 +46,7 @@ export default function SolicitarViaje() {
           <section className="py-20 bg-gray-50">
             <div className="container mx-auto px-4">
               <h2 className="text-4xl font-bold text-navy text-center mb-12">
-                ¿Por qué solicitar con RideTaxi?
+                ¿Por qué solicitar con Ride Latinos Service LLC?
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div className="text-center">

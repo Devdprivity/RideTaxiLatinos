@@ -240,7 +240,7 @@ export default function Business() {
                 </div>
 
                 <h1 className="text-5xl md:text-7xl font-black mb-6 bg-gradient-to-r from-white via-gray-100 to-[#25d1ab] bg-clip-text text-transparent leading-tight">
-                  RideTaxi Business
+                  Ride Latinos Service LLC Business
                 </h1>
                 
                 <p className="text-xl md:text-2xl text-gray-300 mb-10 font-light leading-relaxed max-w-3xl mx-auto">
@@ -331,7 +331,7 @@ export default function Business() {
                         ¿Listo para optimizar el transporte de tu empresa?
                       </h3>
                       <p className="text-xl text-white/90">
-                        Solicita una demostración gratuita y descubre cómo RideTaxi Business puede ayudarte
+                        Solicita una demostración gratuita y descubre cómo Ride Latinos Service LLC Business puede ayudarte
                       </p>
                     </div>
                   </div>
@@ -485,7 +485,7 @@ export default function Business() {
                 </h2>
                 
                 <p className="text-xl md:text-2xl text-white/90 mb-10 leading-relaxed max-w-2xl mx-auto">
-                  Únete a las empresas que ya confían en RideTaxi Business
+                  Únete a las empresas que ya confían en Ride Latinos Service LLC Business
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

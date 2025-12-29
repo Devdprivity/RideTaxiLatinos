@@ -2,8 +2,8 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 
 export const metadata = {
-  title: 'Carreras - RideTaxi',
-  description: 'Únete al equipo de RideTaxi y ayúdanos a transformar el transporte.',
+  title: 'Carreras - Ride Latinos Service LLC',
+  description: 'Únete al equipo de Ride Latinos Service LLC y ayúdanos a transformar el transporte.',
 };
 
 export default function Carreras() {
@@ -29,7 +29,7 @@ export default function Carreras() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-4xl font-bold text-navy text-center mb-12">
-                Por qué trabajar en RideTaxi
+                Por qué trabajar en Ride Latinos Service LLC
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">

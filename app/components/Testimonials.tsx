@@ -26,7 +26,7 @@ export default function Testimonials() {
       role: 'Pasajera frecuente',
       rating: 5,
       text:
-        'RideTaxi cambió completamente mi forma de moverme. Sé cuánto pago, me siento segura y siempre llego a tiempo.'
+        'Ride Latinos Service LLC cambió completamente mi forma de moverme. Sé cuánto pago, me siento segura y siempre llego a tiempo.'
     },
     {
       name: 'Carlos Rodríguez',
@@ -47,7 +47,7 @@ export default function Testimonials() {
       role: 'Profesional',
       rating: 5,
       text:
-        'Uso RideTaxi todos los días. Funciona, es simple y confiable. No necesito nada más.'
+        'Uso Ride Latinos Service LLC todos los días. Funciona, es simple y confiable. No necesito nada más.'
     }
   ];
 
@@ -60,7 +60,7 @@ export default function Testimonials() {
             Opiniones reales de nuestros usuarios
           </h2>
           <p className="text-lg text-[#0F1A4F]/80">
-            Miles de pasajeros y conductores confían en RideTaxi cada día
+            Miles de pasajeros y conductores confían en Ride Latinos Service LLC cada día
           </p>
         </div>
 

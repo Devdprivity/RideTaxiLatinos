@@ -83,7 +83,7 @@ export default function TerminosServicio() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-              Lee cuidadosamente estos términos antes de usar RideTaxi. Al acceder a nuestros servicios, aceptas cumplir con estos términos y condiciones.
+              Lee cuidadosamente estos términos antes de usar Ride Latinos Service LLC. Al acceder a nuestros servicios, aceptas cumplir con estos términos y condiciones.
             </p>
 
             {/* Quick stats */}
@@ -156,10 +156,10 @@ export default function TerminosServicio() {
                   </div>
                   <div className="space-y-4 text-white/80 leading-relaxed">
                     <p>
-                      Al acceder y utilizar la plataforma RideTaxi (&quot;el Servicio&quot;), ya sea como pasajero o conductor, usted acepta estar legalmente vinculado por estos Términos de Servicio (&quot;Términos&quot;). Si no está de acuerdo con estos términos, no debe utilizar nuestro servicio.
+                      Al acceder y utilizar la plataforma Ride Latinos Service LLC (&quot;el Servicio&quot;), ya sea como pasajero o conductor, usted acepta estar legalmente vinculado por estos Términos de Servicio (&quot;Términos&quot;). Si no está de acuerdo con estos términos, no debe utilizar nuestro servicio.
                     </p>
                     <p>
-                      Estos términos constituyen un acuerdo legal entre usted y RideTaxi LLC. Al registrarse, confirma que ha leído, comprendido y aceptado estos términos en su totalidad.
+                      Estos términos constituyen un acuerdo legal entre usted y Ride Latinos Service LLC. Al registrarse, confirma que ha leído, comprendido y aceptado estos términos en su totalidad.
                     </p>
                     <div className="bg-[#25d1ab]/10 border-l-4 border-[#25d1ab] rounded-r-xl p-4 mt-6">
                       <p className="text-[#25d1ab] font-semibold">📌 Importante:</p>
@@ -183,7 +183,7 @@ export default function TerminosServicio() {
                   </div>
                   <div className="space-y-4 text-white/80 leading-relaxed">
                     <p>
-                      RideTaxi es una plataforma tecnológica que conecta a pasajeros con conductores independientes para facilitar el transporte privado. No somos una empresa de transporte tradicional, sino un intermediario tecnológico.
+                      Ride Latinos Service LLC es una plataforma tecnológica que conecta a pasajeros con conductores independientes para facilitar el transporte privado. No somos una empresa de transporte tradicional, sino un intermediario tecnológico.
                     </p>
                     <p className="font-semibold text-white">Nuestros servicios incluyen:</p>
                     <ul className="space-y-3 ml-4">
@@ -219,7 +219,7 @@ export default function TerminosServicio() {
                   </div>
                   <div className="space-y-4 text-white/80 leading-relaxed">
                     <p>
-                      Para utilizar RideTaxi, debe crear una cuenta proporcionando información precisa y completa. Usted es responsable de mantener la confidencialidad de su cuenta y contraseña.
+                      Para utilizar Ride Latinos Service LLC, debe crear una cuenta proporcionando información precisa y completa. Usted es responsable de mantener la confidencialidad de su cuenta y contraseña.
                     </p>
                     <p className="font-semibold text-white">Requisitos de registro:</p>
                     <div className="grid md:grid-cols-2 gap-4 mt-4">
@@ -236,7 +236,7 @@ export default function TerminosServicio() {
                       ))}
                     </div>
                     <p className="mt-6">
-                      Usted se compromete a notificarnos inmediatamente sobre cualquier uso no autorizado de su cuenta. RideTaxi no será responsable de pérdidas derivadas del uso no autorizado de su cuenta.
+                      Usted se compromete a notificarnos inmediatamente sobre cualquier uso no autorizado de su cuenta. Ride Latinos Service LLC no será responsable de pérdidas derivadas del uso no autorizado de su cuenta.
                     </p>
                   </div>
                 </section>
@@ -311,7 +311,7 @@ export default function TerminosServicio() {
                       Los precios pueden variar según condiciones de tráfico, clima, demanda y eventos especiales. Nos reservamos el derecho de modificar las tarifas, notificando con anticipación cuando sea posible.
                     </p>
                     <p>
-                      Todas las transacciones se procesan de forma segura. RideTaxi no almacena información completa de su tarjeta de crédito.
+                      Todas las transacciones se procesan de forma segura. Ride Latinos Service LLC no almacena información completa de su tarjeta de crédito.
                     </p>
                   </div>
                 </section>
@@ -329,7 +329,7 @@ export default function TerminosServicio() {
                   </div>
                   <div className="space-y-4 text-white/80 leading-relaxed">
                     <p>
-                      RideTaxi actúa como intermediario tecnológico entre pasajeros y conductores independientes. Los conductores son contratistas independientes, no empleados de RideTaxi.
+                      Ride Latinos Service LLC actúa como intermediario tecnológico entre pasajeros y conductores independientes. Los conductores son contratistas independientes, no empleados de Ride Latinos Service LLC.
                     </p>
                     <p className="font-semibold text-white">Nuestra responsabilidad se limita a:</p>
                     <ul className="space-y-3 ml-4">
@@ -350,7 +350,7 @@ export default function TerminosServicio() {
                     <div className="bg-[#25d1ab]/10 border-l-4 border-[#25d1ab] rounded-r-xl p-4 mt-6">
                       <p className="text-[#25d1ab] font-semibold">⚖️ Importante:</p>
                       <p className="text-white/90 mt-2">
-                        RideTaxi no es responsable de daños, lesiones o pérdidas que ocurran durante el viaje. Los conductores mantienen su seguro y responsabilidad individual.
+                        Ride Latinos Service LLC no es responsable de daños, lesiones o pérdidas que ocurran durante el viaje. Los conductores mantienen su seguro y responsabilidad individual.
                       </p>
                     </div>
                   </div>
@@ -369,7 +369,7 @@ export default function TerminosServicio() {
                   </div>
                   <div className="space-y-4 text-white/80 leading-relaxed">
                     <p>
-                      Todos los derechos de propiedad intelectual relacionados con la plataforma RideTaxi, incluyendo pero no limitado a logos, marcas, diseño, código fuente y contenido, son propiedad exclusiva de RideTaxi LLC.
+                      Todos los derechos de propiedad intelectual relacionados con la plataforma Ride Latinos Service LLC, incluyendo pero no limitado a logos, marcas, diseño, código fuente y contenido, son propiedad exclusiva de Ride Latinos Service LLC.
                     </p>
                     <p>
                       Usted recibe una licencia limitada, no exclusiva e intransferible para usar la plataforma únicamente para fines personales. No puede copiar, modificar, distribuir o crear trabajos derivados de nuestro contenido sin autorización expresa.
@@ -428,7 +428,7 @@ export default function TerminosServicio() {
                   </div>
                   <div className="space-y-4 text-white/80 leading-relaxed">
                     <p>
-                      RideTaxi se reserva el derecho de modificar estos términos en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en la plataforma.
+                      Ride Latinos Service LLC se reserva el derecho de modificar estos términos en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en la plataforma.
                     </p>
                     <p>
                       Le notificaremos sobre cambios significativos a través de correo electrónico o notificaciones en la aplicación. El uso continuado del servicio después de las modificaciones constituye su aceptación de los nuevos términos.
@@ -484,7 +484,7 @@ export default function TerminosServicio() {
                     ¿Listo para comenzar?
                   </h3>
                   <p className="text-white/90 mb-6 max-w-xl mx-auto">
-                    Acepta nuestros términos y únete a miles de usuarios que confían en RideTaxi para sus viajes diarios.
+                    Acepta nuestros términos y únete a miles de usuarios que confían en Ride Latinos Service LLC para sus viajes diarios.
                   </p>
                   <Link
                     href="/"

@@ -2,8 +2,8 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 
 export const metadata = {
-  title: 'Portal de Conductores - RideTaxi',
-  description: 'Accede al portal de conductores de RideTaxi.',
+  title: 'Portal de Conductores - Ride Latinos Service LLC',
+  description: 'Accede al portal de conductores de Ride Latinos Service LLC.',
 };
 
 export default function PortalConductores() {

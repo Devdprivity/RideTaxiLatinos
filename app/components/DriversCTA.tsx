@@ -9,7 +9,7 @@ export default function DriversCTA() {
             {/* Left side - Content */}
             <div className="p-12 lg:p-16 text-white">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Conduce y gana con RideTaxi
+                Conduce y gana con Ride Latinos Service LLC
               </h2>
               <p className="text-xl mb-8 opacity-90">
                 Únete a más de 50,000 conductores que ya generan ingresos con horarios flexibles. Tú decides cuándo y dónde trabajar.

@@ -32,7 +32,7 @@ export default function Header() {
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/img/LogoRide.svg"
-              alt="RideTaxi"
+              alt="Ride Latinos Service LLC"
               width={160}
               height={40}
               priority={isHome}

@@ -232,7 +232,7 @@ export default function RegistroConductor() {
                   </div>
 
                   <h1 className="text-5xl md:text-7xl font-black mb-6 bg-gradient-to-r from-white via-gray-100 to-[#25d1ab] bg-clip-text text-transparent leading-tight">
-                    Conduce y gana con RideTaxi
+                    Conduce y gana con Ride Latinos Service LLC
                   </h1>
                   
                   <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light leading-relaxed">
@@ -406,7 +406,7 @@ export default function RegistroConductor() {
             <div className="container mx-auto px-4">
               <div className="text-center mb-16 observe-me">
                 <h2 className="text-4xl md:text-5xl font-black text-[#010028] mb-4">
-                  Beneficios de conducir con <span className="text-[#25d1ab]">RideTaxi</span>
+                  Beneficios de conducir con <span className="text-[#25d1ab]">Ride Latinos Service LLC</span>
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                   Más que un trabajo, una oportunidad de crecimiento
@@ -487,7 +487,7 @@ export default function RegistroConductor() {
                 </h2>
                 
                 <p className="text-xl md:text-2xl mb-10 text-white font-light leading-relaxed max-w-2xl mx-auto">
-                  Miles de conductores ya confían en RideTaxi para generar ingresos
+                  Miles de conductores ya confían en Ride Latinos Service LLC para generar ingresos
                 </p>
 
                 {/* Botón CTA principal */}

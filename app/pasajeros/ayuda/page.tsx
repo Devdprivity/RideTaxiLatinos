@@ -49,7 +49,7 @@ export default function Ayuda() {
         {
           id: 'cuenta-1',
           q: '¿Cómo creo una cuenta?',
-          a: 'Descarga la app RideTaxi, ingresa tu número de teléfono y sigue las instrucciones. El proceso toma menos de 2 minutos.'
+          a: 'Descarga la app Ride Latinos Service LLC, ingresa tu número de teléfono y sigue las instrucciones. El proceso toma menos de 2 minutos.'
         },
         {
           id: 'cuenta-2',
@@ -335,7 +335,7 @@ export default function Ayuda() {
                   Preguntas <span className="text-[#25d1ab]">frecuentes</span>
                 </h2>
                 <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                  Todo lo que necesitas saber para usar RideTaxi
+                  Todo lo que necesitas saber para usar Ride Latinos Service LLC
                 </p>
               </div>
 
@@ -527,7 +527,7 @@ export default function Ayuda() {
                 </h2>
                 
                 <p className="text-xl md:text-2xl mb-10 text-white font-light leading-relaxed">
-                  Obtén soporte directo desde la app de RideTaxi
+                  Obtén soporte directo desde la app de Ride Latinos Service LLC
                 </p>
 
                 {/* Botones de acción */}

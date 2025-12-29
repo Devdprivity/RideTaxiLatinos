@@ -83,7 +83,7 @@ export default function Privacidad() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-              En RideTaxi, protegemos tu información personal con los más altos estándares de seguridad. Conoce cómo recopilamos, usamos y protegemos tus datos.
+              En Ride Latinos Service LLC, protegemos tu información personal con los más altos estándares de seguridad. Conoce cómo recopilamos, usamos y protegemos tus datos.
             </p>
 
             {/* Quick info cards */}
@@ -158,10 +158,10 @@ export default function Privacidad() {
                   </div>
                   <div className="space-y-4 text-white/80 leading-relaxed">
                     <p>
-                      RideTaxi LLC (&quot;nosotros&quot;, &quot;nuestro&quot; o &quot;la Compañía&quot;) se compromete a proteger tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información personal cuando utilizas nuestra plataforma.
+                      Ride Latinos Service LLC (&quot;nosotros&quot;, &quot;nuestro&quot; o &quot;la Compañía&quot;) se compromete a proteger tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información personal cuando utilizas nuestra plataforma.
                     </p>
                     <p>
-                      Al usar RideTaxi, aceptas las prácticas descritas en esta política. Si no estás de acuerdo, por favor no uses nuestros servicios.
+                      Al usar Ride Latinos Service LLC, aceptas las prácticas descritas en esta política. Si no estás de acuerdo, por favor no uses nuestros servicios.
                     </p>
                     <div className="bg-[#25d1ab]/10 border-l-4 border-[#25d1ab] rounded-r-xl p-4 mt-6">
                       <p className="text-[#25d1ab] font-semibold">📅 Última actualización: Diciembre 2024</p>
@@ -281,7 +281,7 @@ export default function Privacidad() {
                   </div>
                   <div className="space-y-4 text-white/80 leading-relaxed">
                     <p>
-                      RideTaxi NO vende tu información personal a terceros. Solo compartimos información en las siguientes circunstancias:
+                      Ride Latinos Service LLC NO vende tu información personal a terceros. Solo compartimos información en las siguientes circunstancias:
                     </p>
                     <ul className="space-y-3 ml-4">
                       {[
@@ -446,7 +446,7 @@ export default function Privacidad() {
                   </div>
                   <div className="space-y-4 text-white/80 leading-relaxed">
                     <p>
-                      RideTaxi no está dirigido a menores de 18 años. No recopilamos intencionalmente información personal de niños sin el consentimiento verificable de los padres.
+                      Ride Latinos Service LLC no está dirigido a menores de 18 años. No recopilamos intencionalmente información personal de niños sin el consentimiento verificable de los padres.
                     </p>
                     <p>
                       Si descubrimos que hemos recopilado información de un menor sin consentimiento, eliminaremos esa información de nuestros servidores inmediatamente.
@@ -496,7 +496,7 @@ export default function Privacidad() {
                       ))}
                     </ul>
                     <p>
-                      El uso continuado de RideTaxi después de los cambios constituye tu aceptación de la política actualizada.
+                      El uso continuado de Ride Latinos Service LLC después de los cambios constituye tu aceptación de la política actualizada.
                     </p>
                   </div>
                 </section>
@@ -523,7 +523,7 @@ export default function Privacidad() {
                         { icon: '✉️', label: 'Email de privacidad', value: 'privacy@ridetaxi.com' },
                         { icon: '📧', label: 'Email general', value: 'info@ridetaxi.com' },
                         { icon: '📱', label: 'Teléfono', value: '+1 (555) 123-4567' },
-                        { icon: '📍', label: 'Dirección postal', value: 'RideTaxi LLC, Miami, FL 33101' }
+                        { icon: '📍', label: 'Dirección postal', value: 'Ride Latinos Service LLC, Miami, FL 33101' }
                       ].map((contact, idx) => (
                         <div key={idx} className="flex items-center gap-3 bg-[#25d1ab]/10 p-4 rounded-xl">
                           <span className="text-2xl">{contact.icon}</span>

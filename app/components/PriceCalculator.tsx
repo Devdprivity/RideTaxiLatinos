@@ -268,7 +268,7 @@ export default function PriceCalculator() {
           // Listo para recoger: $11.00 base (hasta 4 millas)
           // Millas adicionales: $2.00 por cada milla extra
           if (miles <= 4) {
-            calculatedPrice = 11.00;
+          calculatedPrice = 11.00;
           } else {
             calculatedPrice = 11.00 + (2.00 * (miles - 4));
           }
@@ -276,7 +276,7 @@ export default function PriceCalculator() {
           // Pedir y esperar: $15.00 base (hasta 4 millas)
           // Millas adicionales: $2.00 por cada milla extra
           if (miles <= 4) {
-            calculatedPrice = 15.00;
+          calculatedPrice = 15.00;
           } else {
             calculatedPrice = 15.00 + (2.00 * (miles - 4));
           }

@@ -75,7 +75,7 @@ export default function Cookies() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-              Te explicamos qué son las cookies, cómo las usamos y cómo puedes controlarlas para tener la mejor experiencia en RideTaxi.
+              Te explicamos qué son las cookies, cómo las usamos y cómo puedes controlarlas para tener la mejor experiencia en Ride Latinos Service LLC.
             </p>
 
             {/* Quick actions */}
@@ -124,7 +124,7 @@ export default function Cookies() {
                   Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web. Nos ayudan a recordar tus preferencias, mejorar tu experiencia y entender cómo usas nuestra plataforma.
                 </p>
                 <p>
-                  En RideTaxi, utilizamos cookies y tecnologías similares (como almacenamiento local, píxeles de seguimiento y SDKs móviles) para proporcionar, proteger y mejorar nuestros servicios.
+                  En Ride Latinos Service LLC, utilizamos cookies y tecnologías similares (como almacenamiento local, píxeles de seguimiento y SDKs móviles) para proporcionar, proteger y mejorar nuestros servicios.
                 </p>
               </div>
             </div>

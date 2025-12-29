@@ -92,7 +92,7 @@ export default function Stats() {
             <span className="text-xs font-semibold uppercase tracking-wider">Nuestros números</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
-            RideTaxi en números
+            Ride Latinos Service LLC en números
           </h2>
           <p className="text-base md:text-lg text-white/70 max-w-2xl mx-auto leading-relaxed">
             El crecimiento de nuestra comunidad nos impulsa a ser mejores cada día.

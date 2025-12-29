@@ -88,7 +88,7 @@ export default function MobileAyuda() {
       ),
       label: 'WhatsApp',
       subtitle: 'Respuesta rápida',
-      href: 'https://wa.me/19415578000?text=Hola,%20necesito%20ayuda%20con%20RideTaxi',
+      href: 'https://wa.me/19415578000?text=Hola,%20necesito%20ayuda%20con%20Ride%20Latinos%20Service%20LLC',
       color: 'bg-green-500'
     },
     {

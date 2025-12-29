@@ -127,7 +127,7 @@ export default function SobreNosotros() {
   ];
 
   const timeline = [
-    { year: '2020', title: 'Fundación', desc: 'RideTaxi nace con la misión de servir a la comunidad latina' },
+    { year: '2020', title: 'Fundación', desc: 'Ride Latinos Service LLC nace con la misión de servir a la comunidad latina' },
     { year: '2021', title: 'Expansión', desc: 'Llegamos a 10 ciudades principales' },
     { year: '2022', title: 'Crecimiento', desc: '10,000 conductores y 1M de viajes' },
     { year: '2023', title: 'Reconocimiento', desc: 'Premio a mejor servicio de transporte' },
@@ -286,7 +286,7 @@ export default function SobreNosotros() {
                     </h2>
                     <div className="space-y-6">
                       <p className="text-lg text-gray-700 leading-relaxed">
-                        RideTaxi nació en 2020 con una visión clara: crear un servicio de transporte que entendiera y sirviera a la comunidad latina en América. Fundada por latinoamericanos para latinoamericanos, nuestra misión siempre ha sido más que solo mover personas de un punto A a un punto B.
+                        Ride Latinos Service LLC nació en 2020 con una visión clara: crear un servicio de transporte que entendiera y sirviera a la comunidad latina en América. Fundada por latinoamericanos para latinoamericanos, nuestra misión siempre ha sido más que solo mover personas de un punto A a un punto B.
                       </p>
                       <p className="text-lg text-gray-700 leading-relaxed">
                         Entendemos los desafíos únicos que enfrenta nuestra comunidad: la barrera del idioma, la necesidad de precios justos y transparentes, y sobre todo, la importancia de sentirse seguro y comprendido durante cada viaje.

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import MobileTarifas from '@/app/components/MobileTarifas';
 
 export const metadata = {
-  title: 'Tarifas - RideTaxi',
+  title: 'Tarifas - Ride Latinos Service LLC',
   description: 'Conoce nuestras tarifas transparentes y competitivas. Sin cargos ocultos.',
 };
 

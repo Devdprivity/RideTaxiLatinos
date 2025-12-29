@@ -3,8 +3,8 @@ import Footer from '@/app/components/Footer';
 import CitiesPreview from '@/app/components/CitiesPreview';
 
 export const metadata = {
-  title: 'Ciudades - RideTaxi',
-  description: 'RideTaxi está disponible en las principales ciudades de Latinoamérica.',
+  title: 'Ciudades - Ride Latinos Service LLC',
+  description: 'Ride Latinos Service LLC está disponible en las principales ciudades de Latinoamérica.',
 };
 
 export default function Ciudades() {
@@ -21,7 +21,7 @@ export default function Ciudades() {
                 Donde estés, estamos contigo
               </h1>
               <p className="text-xl text-gray-300">
-                RideTaxi está presente en más de 30 ciudades de Latinoamérica
+                Ride Latinos Service LLC está presente en más de 30 ciudades de Latinoamérica
               </p>
             </div>
           </div>

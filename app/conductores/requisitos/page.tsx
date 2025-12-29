@@ -220,7 +220,7 @@ export default function Requisitos() {
                 </h1>
                 
                 <p className="text-xl md:text-2xl text-gray-300 mb-10 font-light leading-relaxed">
-                  Estos son los requisitos mínimos para unirte a RideTaxi como conductor
+                  Estos son los requisitos mínimos para unirte a Ride Latinos Service LLC como conductor
                 </p>
 
                 {/* Progress bar */}
@@ -513,7 +513,7 @@ export default function Requisitos() {
                 </h2>
                 
                 <p className="text-xl md:text-2xl mb-10 text-white font-light leading-relaxed max-w-2xl mx-auto">
-                  Únete a miles de conductores que ya generan ingresos con RideTaxi
+                  Únete a miles de conductores que ya generan ingresos con Ride Latinos Service LLC
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">

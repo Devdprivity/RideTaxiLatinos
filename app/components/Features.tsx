@@ -78,11 +78,11 @@ export default function Features() {
         <div className="relative text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 rounded-full bg-turquoise/10 px-4 py-2 text-turquoise text-sm font-semibold">
             <span className="h-2 w-2 rounded-full bg-turquoise" />
-            Beneficios de RideTaxi
+            Beneficios de Ride Latinos Service LLC
           </div>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-navy tracking-tight">
-            ¿Por qué elegir RideTaxi?
+            ¿Por qué elegir Ride Latinos Service LLC?
           </h2>
           <p className="mt-4 text-lg md:text-xl text-gray-600 leading-relaxed">
             Una experiencia moderna, segura y transparente. Diseñada para moverte rápido y con tranquilidad.

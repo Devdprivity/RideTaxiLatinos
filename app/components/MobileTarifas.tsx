@@ -49,7 +49,7 @@ export default function MobileTarifas() {
           
           <Image
             src="/img/LogoRide.svg"
-            alt="RideTaxi Logo"
+            alt="Ride Latinos Service LLC Logo"
             width={100}
             height={28}
             priority

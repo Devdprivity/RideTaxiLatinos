@@ -2,8 +2,8 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 
 export const metadata = {
-  title: 'Blog - RideTaxi',
-  description: 'Noticias, consejos y actualizaciones de RideTaxi.',
+  title: 'Blog - Ride Latinos Service LLC',
+  description: 'Noticias, consejos y actualizaciones de Ride Latinos Service LLC.',
 };
 
 export default function Blog() {
@@ -13,7 +13,7 @@ export default function Blog() {
       category: 'Conductores',
       date: '15 Dic 2024',
       image: '📊',
-      excerpt: 'Descubre estrategias probadas para aumentar tus ingresos como conductor de RideTaxi.'
+      excerpt: 'Descubre estrategias probadas para aumentar tus ingresos como conductor de Ride Latinos Service LLC.'
     },
     {
       title: 'Nuevas medidas de seguridad implementadas',
@@ -23,7 +23,7 @@ export default function Blog() {
       excerpt: 'Conoce las últimas actualizaciones en seguridad para pasajeros y conductores.'
     },
     {
-      title: 'RideTaxi llega a 5 nuevas ciudades',
+      title: 'Ride Latinos Service LLC llega a 5 nuevas ciudades',
       category: 'Expansión',
       date: '5 Dic 2024',
       image: '🌎',
@@ -41,7 +41,7 @@ export default function Blog() {
       category: 'Comunidad',
       date: '28 Nov 2024',
       image: '⭐',
-      excerpt: 'La inspiradora historia de una conductora que transformó su vida con RideTaxi.'
+      excerpt: 'La inspiradora historia de una conductora que transformó su vida con Ride Latinos Service LLC.'
     },
     {
       title: 'Tecnología al servicio del transporte',
@@ -61,7 +61,7 @@ export default function Blog() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                Blog de RideTaxi
+                Blog de Ride Latinos Service LLC
               </h1>
               <p className="text-xl text-gray-300">
                 Noticias, consejos y actualizaciones de nuestra comunidad
