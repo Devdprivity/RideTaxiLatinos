@@ -6,6 +6,11 @@ import { usePathname } from 'next/navigation';
 export default function MobileNavBar() {
   const pathname = usePathname();
 
+  // Ocultar nav en la landing principal
+  if (pathname === '/') {
+    return null;
+  }
+
   const navItems = [
     {
       label: 'Inicio',
