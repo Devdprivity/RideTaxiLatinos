@@ -6,11 +6,6 @@ import { usePathname } from 'next/navigation';
 export default function MobileNavBar() {
   const pathname = usePathname();
 
-  // Ocultar nav en la landing principal
-  if (pathname === '/') {
-    return null;
-  }
-
   const navItems = [
     {
       label: 'Inicio',
@@ -59,9 +54,8 @@ export default function MobileNavBar() {
             <Link
               key={item.href}
               href={item.href}
-              className={`flex flex-col items-center justify-center flex-1 py-2 transition-all duration-200 ${
-                isActive ? 'scale-105' : 'active:scale-95'
-              }`}
+              className={`flex flex-col items-center justify-center flex-1 py-2 transition-all duration-200 ${isActive ? 'scale-105' : 'active:scale-95'
+                }`}
             >
               <div className={`relative ${isActive ? 'mb-0.5' : ''}`}>
                 {item.icon(isActive)}
@@ -70,9 +64,8 @@ export default function MobileNavBar() {
                 )}
               </div>
               <span
-                className={`text-[10px] mt-1 font-medium transition-colors ${
-                  isActive ? 'text-turquoise' : 'text-white/60'
-                }`}
+                className={`text-[10px] mt-1 font-medium transition-colors ${isActive ? 'text-turquoise' : 'text-white/60'
+                  }`}
               >
                 {item.label}
               </span>
